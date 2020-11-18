@@ -190,6 +190,14 @@ a{
     padding-top: 10px;
     transition: .5s;
     line-height: 30px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.dropdown ul li a{
+    color: #fff !important;
 }
 
 .nav-link:hover .dropdown{
@@ -433,13 +441,25 @@ a{
     -webkit-box-shadow: 1px 0px 8px 0px #262626;
     box-shadow: 0 0 6px -2px #262626;
 }
+/*end slider product*/
 
-.product a img {
-
+/* start tabs-product */
+.tabs-product{
+    margin-top: 20px;
 }
 
+#tab-home .product{
+    width: 191px;
+    height: 410px;
+    margin: 0 23px 0 0;
+    border: #0000002c solid 1px;
+}
 
-/*end slider product*/
+.teb-box-product{
+    margin-left: 10px;
+}
+
+/* start tabs-product */
 
 @media (max-width: 1000px){
     .servisess .items-servisess{
