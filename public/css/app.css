@@ -584,6 +584,38 @@ a{
 }
 /* End blog section */
 
+/* Start Footer */
+
+.footer-section{
+    width: 100%;
+    height: 500px;
+    background: #FFAA00;
+}
+
+.footer-links{
+    padding-top: 50px;
+}
+
+.footer-links .link p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.footer-links .link ul{
+    padding-top: 20px;
+}
+
+.footer-links .link ul li{
+    color: #434343;
+    padding-top: 5px;
+
+}
+
+.footer-links .link ul li a{
+    font-size: small;
+}
+
+/* End Footer */
 /*!
  * Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
