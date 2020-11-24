@@ -19,7 +19,7 @@ a{
     width: 90%;
     max-width: 1199px;
     margin: auto;
-    height: 200px;
+    height: 70px;
 }
 
 /* start Header */
@@ -57,7 +57,7 @@ a{
 }
 
 .main-nav ul li{
-    padding-right: 25px;
+    padding-right: 14px;
 }
 
 .main-nav ul li a{
@@ -133,6 +133,10 @@ a{
 .menu-btn.open .menu-btn-burger::after{
     transform: translateY(0) rotate(45deg);
     background: #b40e12;
+    -webkit-transform: translateY(0) rotate(45deg);
+    -moz-transform: translateY(0) rotate(45deg);
+    -ms-transform: translateY(0) rotate(45deg);
+    -o-transform: translateY(0) rotate(45deg);
 }
 
 .menu-btn .menu-btn-burger{
@@ -189,7 +193,7 @@ a{
 .dropdown ul li{
     padding-top: 10px;
     transition: .5s;
-    line-height: 30px;
+    line-height: 20px;
     -webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
@@ -440,24 +444,12 @@ a{
     background: #ffffff;
     -webkit-box-shadow: 1px 0px 8px 0px #262626;
     box-shadow: 0 0 6px -2px #262626;
+    margin-right: 5px;
 }
 /*end slider product*/
 
 /* start tabs-product */
-.tabs-product{
-    margin-top: 20px;
-}
 
-#tab-home .product{
-    width: 191px;
-    height: 410px;
-    margin: 0 23px 0 0;
-    border: #0000002c solid 1px;
-}
-
-.teb-box-product{
-    margin-left: 10px;
-}
 
 /* start tabs-product */
 
@@ -470,6 +462,7 @@ a{
         width: 15%;
         padding-top: 25%;
     }
+    
 }
 
 @media (max-width: 650px){
@@ -494,5 +487,21 @@ a{
 }
 
 
+/* Start tab product */
+
+.md-theme-default a:not(.md-button){
+    padding-top: 10px;
+}
 
 
+/* End tab product */
+
+.products-tab{
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    display: flex;
+    flex-wrap: wrap
+}

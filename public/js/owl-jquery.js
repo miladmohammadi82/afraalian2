@@ -7,7 +7,7 @@ $(document).ready(function () {
         autoplay:true,
         autoplayTimeout:5000,
         nav:true,
-    })
+    });
 
     $(".owl-into").owlCarousel({
         loop: true,
@@ -25,6 +25,6 @@ $(document).ready(function () {
                 items: 4,
             }
         }
-    })
+    });
 
-})
+});
