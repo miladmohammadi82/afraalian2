@@ -588,7 +588,7 @@ a{
 
 .footer-section{
     width: 100%;
-    height: 600px;
+    height: 750px;
     background: #FFAA00;
 }
 
@@ -647,6 +647,34 @@ a{
 .footer-main-uls .footer-main-item ul li a{
     color: #434343;
     font-size: small;
+}
+
+.footer-main-uls{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-main-uls .footer-main-item{
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.footer-main-uls .footer-main-item ul p{
+    font-size: small;
+    color: #434343;
+}
+
+@media (max-width: 800px){
+    
+    .footer-main-uls{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-main-uls .footer-main-item{
+        padding-top: 20px;
+    }
+    
 }
 /* End Footer main */
 
