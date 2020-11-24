@@ -615,6 +615,15 @@ a{
     font-size: small;
 }
 
+.footer-links{
+    display: flex;  
+}
+
+.footer-links .link{
+    width: 248px;
+    padding-left: 20px;
+}
+
 /* End Footer */
 /*!
  * Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com

@@ -615,4 +615,13 @@ a{
     font-size: small;
 }
 
+.footer-links{
+    display: flex;  
+}
+
+.footer-links .link{
+    width: 248px;
+    padding-left: 20px;
+}
+
 /* End Footer */
