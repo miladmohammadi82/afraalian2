@@ -678,6 +678,31 @@ a{
 }
 /* End Footer main */
 
+/* Start End Footer */
+.end-main-footer{
+    padding-top: 100px;
+}
+
+
+.items-end-footer .item-end-footer ul li a img{
+    width: 50px;
+    height: 50px;
+}
+
+.items-end-footer .item-end-footer ul{
+    display: flex;
+    padding-top: 20px;
+}
+
+.items-end-footer .item-end-footer ul li{
+    padding-right: 35px;
+}
+
+.items-end-footer .item-end-footer p{
+    font-size: 20px;
+}
+/* End End Footer */
+
 /* End Footer */
 /*!
  * Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com
