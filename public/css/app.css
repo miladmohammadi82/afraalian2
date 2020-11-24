@@ -496,6 +496,7 @@ a{
 
 /* End tab product */
 
+/* start product tab */
 .products-tab{
     transition: all .5s;
     -webkit-transition: all .5s;
@@ -505,6 +506,50 @@ a{
     display: flex;
     flex-wrap: wrap
 }
+/* End product tab */
+
+/* start blog section */
+
+.blog{
+    margin-top: 85px;
+}
+
+.blogs-items{
+    padding-top: 60px;
+}
+
+.blog-item{
+    width: 12rem;
+    height: auto;
+    background: #fff;
+    background: #e8e8e8;
+}
+
+.blog-item:hover{
+    -webkit-box-shadow: 0px 0px 10px 0px #595959; 
+box-shadow: 0px 0px 10px 0px #595959;
+}
+
+
+.title-blog-item{
+    width: 100%;
+}
+
+.title-blog-item p{
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.btn-blog-item{
+    background: #9f2aff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+   
+}
+/* End blog section */
+
 /*!
  * Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
