@@ -588,7 +588,7 @@ a{
 
 .footer-section{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: #FFAA00;
 }
 
@@ -625,6 +625,30 @@ a{
     width: 248px;
     padding-left: 20px;
 }
+
+/* Start Footer main */
+
+.footer-main{
+    padding: 30px 0 0 0;
+}
+
+.footer-main-uls .footer-main-item p{
+    font-size: 20px;
+}
+
+.footer-main-uls .footer-main-item ul{
+    padding-top: 20px;
+}
+
+.footer-main-uls .footer-main-item ul li{
+    padding-top: 5px;
+}
+
+.footer-main-uls .footer-main-item ul li a{
+    color: #434343;
+    font-size: small;
+}
+/* End Footer main */
 
 /* End Footer */
 /*!
