@@ -133,6 +133,10 @@ a{
 .menu-btn.open .menu-btn-burger::after{
     transform: translateY(0) rotate(45deg);
     background: #b40e12;
+    -webkit-transform: translateY(0) rotate(45deg);
+    -moz-transform: translateY(0) rotate(45deg);
+    -ms-transform: translateY(0) rotate(45deg);
+    -o-transform: translateY(0) rotate(45deg);
 }
 
 .menu-btn .menu-btn-burger{
@@ -189,7 +193,7 @@ a{
 .dropdown ul li{
     padding-top: 10px;
     transition: .5s;
-    line-height: 30px;
+    line-height: 20px;
     -webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
@@ -481,5 +485,15 @@ a{
 }
 
 
+/* Start tab product */
 
+.md-theme-default a:not(.md-button){
+    padding-top: 10px;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    
+}
+
+
+/* End tab product */
 
