@@ -243,7 +243,44 @@ a{
     height: 40px;
 }
 
+.main-nav ul.main-menu .nav-link a.a-nav-link::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: .5rem;
+    background: #FF6D00;
+    width: 78%;
+    height: 2px;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform-origin: right;
+    transition: transform 600ms;
+    -webkit-transition: transform 600ms;
+    -moz-transition: transform 600ms;
+    -ms-transition: transform 600ms;
+    -o-transition: transform 600ms;
+}
 
+.main-nav ul.main-menu .nav-link a:hover::before{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.main-nav ul.main-menu .nav-link a:hover{
+    color: #FF6D00;
+}
+
+.main-nav ul.main-menu .nav-link a.active::before,
+.main-nav ul.main-menu .nav-link a.active{
+    transform: scale(1);
+    color: #FF6D00;
+}
 
 .right-menu a button:focus + li ul.search{
     opacity: 1;
