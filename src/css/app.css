@@ -322,14 +322,31 @@ a{
     margin: 10px 10px;
 }
 
-.shoping-cart-box{
-    width: 225px;
-    height: 175px;
-    background: rgb(255 255 255);
+.conter-shopping-cart{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 10px;
+    font-size: .625rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 10px;
+    background: #FF6D00;
+    border-radius: 20px;
     position: absolute;
-    margin: 17px -25px 0px;
-    border-bottom: 2px solid #d88200;
-    box-shadow: 1px 1px 6px 1px #949494;
+    top: 17px;
+    margin: 0px -7px 0 0;
+    min-width: 14px;
+    height: 14px;
+    padding: 2px 5px 0;
+    color: #fff;
+    position: fixed;
 }
 /*start media*/
 
