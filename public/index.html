@@ -53,18 +53,26 @@
                 </ul>
 
                 <ul class="right-menu">
-                    <li class="pl-3">
-                        <a href="#"><i class="fal fa-search" :class="{ 'fal fa-search-minus':searchBox }" @click="addSearchBox"></i></a>
-                    </li>
-                    
-                    <div class="searchbox" :class="{ showSearchbox:searchBox }">
-                        <form action="" >
-                            <input class="form-control" type="text" name="" placeholder="جوستجو...">
-                        </form>
+                    <div>
+                        <li class="pl-3">
+                            <a href="#"><i class="fal fa-search" :class="{ 'fal fa-search-minus':searchBox }" @click.prevent="addSearchBox"></i></a>
+                        </li>
+                        
+                        <div class="searchbox" :class="{ showSearchbox:searchBox }">
+                            <form action="" >
+                                <input class="form-control" type="text" name="" placeholder="جوستجو...">
+                            </form>
+                        </div>
                     </div>
-                    <li>
-                        <a href="#"><i class="fal fa-shopping-bag"></i></a>
-                    </li>
+                    
+                    <div>
+                        <li>
+                            <a href="#"><i class="fal fa-shopping-bag"></i></a>
+                        </li>
+                        <div class="shoping-cart-box">
+                            
+                        </div>
+                    </div>
 
                     <li>
                         <button class="btn-register-system">ورود</button>
