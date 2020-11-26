@@ -28,6 +28,8 @@ new Vue({
         mobileMenu: false,
 
         searchBox: false,
+
+        natayejSearch: false,
     },
     
     methods: {
