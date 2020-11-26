@@ -330,11 +330,18 @@ a{
     display: none;
 }
 
+@media (max-width: 700px){
+    .searchbox{
+        margin: 0px -32% 0 0;
+    }
+
+}
+
 .product-search-ajax .items-search-ajax{
     width: 100%;
     height: 60px;
     background: #ececec;
-    border-bottom: 1px solid #8a8a8a;
+    border-bottom: 1px solid #b5b5b5;
 }
 
 .product-search-ajax .items-search-ajax .img-search-ajax img{
@@ -535,6 +542,10 @@ a{
 @media (max-width: 700px){
     .main-nav ul.right-menu li:last-child{
         display: none;
+    }
+
+    .searchbox{
+        margin: 0px -28% 0 0;
     }
 
 }
