@@ -25,7 +25,9 @@ new Vue({
     el: "#app",
     data: {
         menuOpen: false,
-        mobileMenu: false
+        mobileMenu: false,
+
+        searchBox: false,
     },
     
     methods: {
@@ -42,6 +44,14 @@ new Vue({
             }
             else{
                 this.mobileMenu = false;
+            }
+        },
+        addSearchBox(){
+            if(!this.searchBox){
+                this.searchBox = true;
+            }
+            else{
+                this.searchBox = false;
             }
         }
     }
