@@ -467,6 +467,27 @@ a{
 .owl-carousel .owl-nav button.owl-prev{
     right: 0;
 }
+
+.owl-prev:hover,
+.owl-next:hover{
+    background: none !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span{
+    background: rgba(0,0,0,.3);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.owl-carousel .owl-nav button.owl-prev span:hover,
+.owl-carousel .owl-nav button.owl-next span:hover{
+    background: #FF6D00
+}
+
 /* End Slider*/
 
 @media (max-width: 1050px){
@@ -989,3 +1010,4 @@ a{
 /* End copy-right */
 
 /* End Footer */
+
