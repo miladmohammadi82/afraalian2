@@ -115,6 +115,10 @@ a{
     background: #4e4e4e;
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .menu-btn-burger::before{
@@ -337,6 +341,13 @@ a{
 @media (max-width: 700px){
     .searchbox{
         margin: 0px -32% 0 0;
+    }
+
+}
+
+@media (max-width: 1050px){
+    .searchbox{
+        margin: 0px -18% 0 0;
     }
 
 }
