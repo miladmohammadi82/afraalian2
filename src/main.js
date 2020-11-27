@@ -30,6 +30,8 @@ new Vue({
         searchBox: false,
 
         natayejSearch: false,
+        
+        showButtonSliderNextPrev: true
     },
     
     methods: {

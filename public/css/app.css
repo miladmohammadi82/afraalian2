@@ -483,9 +483,25 @@ a{
     -o-transition: all .5s;
 }
 
+
+
 .owl-carousel .owl-nav button.owl-prev span:hover,
 .owl-carousel .owl-nav button.owl-next span:hover{
     background: #FF6D00
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 6px;
+    display: block;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    margin: -25% 0px 0px;
 }
 
 /* End Slider*/
