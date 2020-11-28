@@ -713,6 +713,8 @@ a{
     margin-right: 5px;
 }
 
+
+
 /* Start swiper slider product */
 
 .swiper-container {
@@ -754,10 +756,7 @@ a{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-    #top-sale div h4{
-        width: 15%;
-        padding-top: 25%;
-    }
+    
     
 }
 
@@ -767,10 +766,7 @@ a{
         grid-template-columns: repeat(1,1fr);
         width: 100%;
     }
-    #top-sale div h4{
-        width: 24%;
-        padding-top: 130%;
-    }
+    
 
 
     .product{
@@ -778,7 +774,6 @@ a{
         height: 370px;
         border-radius: 10px;
         text-align: center;
-        margin-right: 67px;
     }
 }
 
