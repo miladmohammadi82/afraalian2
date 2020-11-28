@@ -61,6 +61,10 @@ new Vue({
     }
 });
 
+import 'swiper/swiper-bundle.css';
+// import Swiper JS
+import Swiper from 'swiper/bundle';
+
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 10,

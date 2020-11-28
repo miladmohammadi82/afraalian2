@@ -671,13 +671,29 @@ a{
 
 /*start slider product*/
 #top-sale div h4{
-    border-bottom: solid 1px #d56400;
-    width: 8%;
+    color: #444444;
+    border-bottom: 2px solid #F4F5F6;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    font-size: 1.333em;
     display: block;
+    padding: 0 0 8px;
 }
+
+#top-sale div h4 span{
+    display: inline-block;
+    border-bottom: 2px solid #FF6D00;
+    padding-bottom: 8px;
+    margin-bottom: -10px;
+}
+
 .product .title-product,
 .product .title-product .price{
     text-align: center;
+}
+
+.product .title-product .button{
+    cursor: pointer;
 }
 
 .product .price{
@@ -693,13 +709,45 @@ a{
 
 .product{
     width: 213px;
-    height: 447px;
+    max-height: 370px;
     border-radius: 10px;
     background: #ffffff;
+    padding: 0px 0px 18px 0;
     -webkit-box-shadow: 1px 0px 8px 0px #262626;
     box-shadow: 0 0 6px -2px #262626;
     margin-right: 5px;
 }
+
+/* Start swiper slider product */
+
+.swiper-container {
+    width: 100%;
+    height: 50%;
+    padding-top: 24px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+/* Start swiper slider product */
+
 /*end slider product*/
 
 /* start tabs-product */
@@ -712,10 +760,6 @@ a{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-    #top-sale div h4{
-        width: 15%;
-        padding-top: 25%;
-    }
     
 }
 
@@ -725,19 +769,10 @@ a{
         grid-template-columns: repeat(1,1fr);
         width: 100%;
     }
-    #top-sale div h4{
-        width: 24%;
-        padding-top: 130%;
-    }
+    
 
 
-    .product{
-        width: 243px;
-        height: 489px;
-        border-radius: 10px;
-        text-align: center;
-        margin-right: 67px;
-    }
+    
 }
 
 
