@@ -671,10 +671,22 @@ a{
 
 /*start slider product*/
 #top-sale div h4{
-    border-bottom: solid 1px #d56400;
-    width: 8%;
+    color: #444444;
+    border-bottom: 2px solid #F4F5F6;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    font-size: 1.333em;
     display: block;
+    padding: 0 0 8px;
 }
+
+#top-sale div h4 span{
+    display: inline-block;
+    border-bottom: 2px solid #ff7b00;
+    padding-bottom: 8px;
+    margin-bottom: -10px;
+}
+
 .product .title-product,
 .product .title-product .price{
     text-align: center;
