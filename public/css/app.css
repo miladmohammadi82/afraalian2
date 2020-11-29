@@ -838,6 +838,42 @@ a{
 }
 
 
+
+
+
+
+
+
+
+.swiper-container-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide-img{
+    background-position: center;
+      background-size: cover;
+  }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .title-blog-item{
     width: 100%;
 }

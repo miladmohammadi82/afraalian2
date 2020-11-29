@@ -4,14 +4,6 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="./css/app.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="js/owl.carousel.min.css">
-    <link rel="stylesheet" href="js/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
-
 </head>
 <body>
 
@@ -98,21 +90,28 @@
 
 
     <main class="main-site">
+
         <section class="banner-arias" id="banner-aria">
             <div class="container">
-                <div class="owl-carousel owl-theme owl-gallery">
-                    <div class="item">
-                        <img src="./images/image-slider/banner1.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="./images/image-slider/banner2.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="./images/image-slider/banner3.jpg" alt="">
-                    </div>
+                <div class="swiper-container-img">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./images/image-slider/banner1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/image-slider/banner2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/image-slider/banner3.jpg" alt=""></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
                 </div>
             </div>
         </section>
+
+         <!-- Swiper -->
+
+
         <div class="container">
             <div class="servisess">
                 <div class="items-servisess">
@@ -773,7 +772,7 @@
         <div class="items-copy-right-footer">
             <div class="container">
                 <div class="copy-right-title">
-                    <small>&copy; افرا آلیان. تمامی حقوق این وبسایت متعلق به شرکت چهل گیاه افرا آلیان است</small>
+                    <small>&copy;  تمامی حقوق این وبسایت متعلق به شرکت چهل گیاه  است</small>
                 </div>
                 <div class="pm-resans">
                     <ul class="social-network">
@@ -794,10 +793,8 @@
 </div>
 
 
-<script src="js/jquery.min.js"></script>
 
 <script src="js/app.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/owl-jquery.js"></script>
+
 </body>
 </html>
