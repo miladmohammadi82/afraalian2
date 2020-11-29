@@ -426,11 +426,11 @@ a{
     padding-top: 125px;
 }
 
-.swiper-pagination{
+.swiper-container-img .swiper-pagination{
     padding: 38% 40% 0px 0
 }
 
-.swiper-pagination-bullet{
+.swiper-container-img .swiper-pagination-bullet{
     width: 13px !important;
     height: 13px !important;
     margin: 0px 21px 0px 0 !important;
@@ -440,7 +440,7 @@ a{
     background-color: #FF6D00 !important;
 }
 
-.swiper-button-prev, .swiper-button-next{
+.swiper-container-img .swiper-button-prev, .swiper-button-next{
     color: #FF6D00 !important;
 }
 
