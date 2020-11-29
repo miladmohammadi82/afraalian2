@@ -426,82 +426,18 @@ a{
     padding-top: 125px;
 }
 
-
-.owl-carousel .item img{
-    width: 100%;
+.swiper-pagination{
+    padding: 38% 40% 0px 0
 }
 
-
-.owl-carousel .owl-nav button{
-    position: absolute;
-    top: 35%;
-    outline: none;
+.swiper-pagination-bullet{
+    width: 13px !important;
+    height: 13px !important;
+    margin: 0px 21px 0px 0 !important;
 }
 
-.owl-carousel .owl-nav button.owl-next{
-    left: 0;
-}
-.owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev{
-    width: 30px;
-    height: 60px;
-    text-align: center;
-    margin: 44px 0 0;
-}
-
-.owl-carousel .owl-nav button.owl-next span{
-    font-size: 35px;
-    color: #fff;
-    background-color: rgba(0,0,0,.3);
-    margin-right: -14px;
-    padding: 0 1rem;
-}
-
-.owl-carousel .owl-nav button.owl-prev span{
-    font-size: 35px;
-    color: #fff;
-    background-color: rgba(0,0,0,.3);
-    padding: 0 1rem;
-}
-
-.owl-carousel .owl-nav button.owl-prev{
-    right: 0;
-}
-
-.owl-prev:hover,
-.owl-next:hover{
-    background: none !important;
-}
-
-.owl-carousel .owl-nav button.owl-prev span,
-.owl-carousel .owl-nav button.owl-next span{
-    background: rgba(0,0,0,.3);
-    transition: all .5s;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-}
-
-
-
-.owl-carousel .owl-nav button.owl-prev span:hover,
-.owl-carousel .owl-nav button.owl-next span:hover{
-    background: #FF6D00
-}
-
-.owl-theme .owl-dots, .owl-theme .owl-nav{
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    left: 0;
-    right: 0;
-    bottom: 6px;
-    display: block;
-}
-
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
-    margin: -25% 0px 0px;
+.swiper-pagination-bullet-active{
+    background-color: #FF6D00 !important;
 }
 
 /* End Slider*/
