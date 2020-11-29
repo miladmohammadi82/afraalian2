@@ -440,6 +440,10 @@ a{
     background-color: #FF6D00 !important;
 }
 
+.swiper-button-prev, .swiper-button-next{
+    color: #FF6D00 !important;
+}
+
 /* End Slider*/
 
 @media (max-width: 1050px){
