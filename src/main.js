@@ -20,6 +20,8 @@ Vue.use(IconsPlugin);
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import headerSection from './components/header.vue';
+import BackToTop from 'vue-backtotop';
+
 
 
 new Vue({
@@ -28,7 +30,8 @@ new Vue({
 
 
     components: {
-      headerSection
+      headerSection,
+      BackToTop 
     }
   });
 
