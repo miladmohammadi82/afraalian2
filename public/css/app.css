@@ -995,10 +995,30 @@ a{
     width: 50px;
     height: 50px;
     padding: 10px 16px;
-    border-radius: 50%;
+    border-radius: 10%;
     font-size: 22px;
     line-height: 22px;
-  }
+    background: #FF6D00;
+    border: none;
+    color: #fff;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    cursor: pointer;
+}
+
+.vue-back-to-top{
+    z-index: 1100067 !important;
+}
+
+.btn-to-top i{
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
 
   .btn-to-top:hover i{
       margin-bottom: 14px;
