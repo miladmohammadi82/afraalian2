@@ -19,51 +19,23 @@ Vue.use(IconsPlugin);
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
+import headerSection from './components/header.vue';
 
 
 new Vue({
     el: "#app",
-    data: {
-        menuOpen: false,
-        mobileMenu: false,
-
-        searchBox: false,
-
-        natayejSearch: false,
-        
-        showButtonSliderNextPrev: true
-    },
     
-    methods: {
-        menuOpenshow(){
-            if(!this.menuOpen){
-                this.menuOpen = true;
-            }
-            else{
-                this.menuOpen = false;
-            }
 
-            if(!this.mobileMenu){
-                this.mobileMenu = true;
-            }
-            else{
-                this.mobileMenu = false;
-            }
-        },
-        addSearchBox(){
-            if(!this.searchBox){
-                this.searchBox = true;
-            }
-            else{
-                this.searchBox = false;
-            }
-        }
+
+    components: {
+      headerSection
     }
-});
+  });
 
 import 'swiper/swiper-bundle.css';
 // import Swiper JS
 import Swiper from 'swiper/bundle';
+import { template } from 'lodash';
 
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
