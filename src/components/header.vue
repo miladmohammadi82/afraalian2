@@ -132,16 +132,13 @@ export default {
 
 <style scoped>
     .header.vue-fixed-header--isFixed {
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding-left: 3px;
-    width: 100vw;
-    border-bottom: #fb8500 solid 3px;
-    transition: .3s all;
-    }
-
-    .header.vue-fixed-header-isFixed{
-        border-bottom: #fb8500 solid 3px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding-left: 3px;
+        width: 100vw;
+        border-bottom: #d67100 solid 3px;
+        transition: .3s all;
+        background: #fbba00;
     }
 </style>
