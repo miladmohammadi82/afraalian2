@@ -954,6 +954,7 @@ a{
     -o-transition: all 500ms;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .button-blog i{
