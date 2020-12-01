@@ -829,7 +829,7 @@ a{
 }
 
 .blogs-items{
-    padding-top: 60px;
+    padding-top: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -849,6 +849,11 @@ a{
     -moz-border-radius: 10px 10px 0 0;
     -ms-border-radius: 10px 10px 0 0;
     -o-border-radius: 10px 10px 0 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
 
 .blog-item img{
