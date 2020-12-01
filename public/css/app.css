@@ -865,8 +865,8 @@ a{
 }
 
 .blog-item:hover{
-    -webkit-box-shadow: 0px 0px 10px 0px #595959; 
-    box-shadow: 0px 0px 10px 0px #595959;
+    -webkit-box-shadow: 0px 0px 10px 0px #999999; 
+    box-shadow: 0px 0px 10px 0px #999999;
 }
 
 
