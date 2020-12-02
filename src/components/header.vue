@@ -3,7 +3,7 @@
         <header class="header">
         <div class="container-grid">
             <nav class="main-nav">
-                <div class="menu-btn" :class="{ open:menuOpen }" @click="menuOpenshow">
+                <div class="menu-btn">
                     <div class="menu-btn-burger"></div>
                 </div>
 
